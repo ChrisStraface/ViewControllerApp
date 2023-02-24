@@ -42,7 +42,6 @@ public class HelloController {
             list.remove(newTask);
             listView.getItems().remove(newTask);
             deleteMenu.getItems().remove(menuItem);
-            temporaryList.remove();
         });
 
     }
